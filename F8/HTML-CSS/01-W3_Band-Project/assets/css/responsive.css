@@ -1,0 +1,146 @@
+/* Break point: điểm gãy */
+/* 
+    PC    : >= 1024px
+    Tablet: >= 740px & < 1024px
+    Mobile: < 740px
+*/
+/* PC */
+@media (min-width: 64em) {
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+  /* footer */
+  .footer .socials-list {
+    font-size: 4.8rem;
+  }
+  .footer .socials-list a {
+    margin: 0 8px;
+  }
+  .footer .copyright {
+    font-size: 3rem;
+    margin-top: 3rem;
+  }
+  .footer .copyright a {
+    padding: 2rem 0;
+  }
+}
+
+/* Tablet và Mobile */
+@media (max-width: 63.9375em) {
+  .nav .subnav li a {
+    padding: 5px 14px;
+  }
+
+  .place-buy-ticket {
+    padding: 1.4rem 1.8rem;
+  }
+
+  .text-buy-ticket {
+    margin-bottom: 0px;
+  }
+
+  .contact-form .form-control {
+    padding: 1.6rem;
+    font-size: 1.6rem;
+  }
+  .contact-form .form-submit-btn {
+    padding: 1.4rem 1.8rem;
+    font-size: 1.6rem;
+  }
+  .contact-info {
+    line-height: 2;
+  }
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+  /* col */
+  .s-full-width,
+  .s-col-full {
+    width: 100% !important;
+  }
+
+  /* mt */
+  .s-mt-8 {
+    margin-top: 8px !important;
+  }
+
+  /* header */
+  .header {
+    overflow: hidden;
+  }
+
+  .header .mobile-menu-btn {
+    display: block;
+  }
+
+  .header .search-btn {
+    display: none;
+  }
+
+  /* slider */
+  .slider .text-content .text-heading {
+    padding-bottom: 1rem;
+    font-weight: 500;
+    font-size: 2.6rem;
+  }
+  .slider .text-content .text-discription {
+    margin: 0rem 0;
+    font-size: 1.4rem;
+    text-shadow: 0 0 2px #000;
+  }
+
+  /* nav */
+  .nav {
+    display: block;
+  }
+
+  .nav li {
+    display: block;
+  }
+  .nav li:first-child {
+    display: inline-block;
+  }
+  .nav li a {
+    padding: 1px 2.4rem;
+  }
+
+  .nav .subnav {
+    position: initial;
+    background-color: #333;
+  }
+  .nav .subnav li a {
+    color: #fff;
+    padding: 5px 4rem;
+  }
+
+  /* content */
+  .content .member-list {
+    margin-top: 2rem;
+  }
+
+  .content .member-img {
+    width: 60%;
+  }
+
+  /* contact */
+  .contact-form {
+    margin-top: 3.2rem;
+  }
+
+  /* footer */
+  .footer .socials-list {
+    font-size: 2.6rem;
+  }
+  .footer .socials-list a {
+    margin: 0 8px;
+  }
+  .footer .copyright {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  .footer .copyright a {
+    padding: 1.4rem 0;
+  }
+}

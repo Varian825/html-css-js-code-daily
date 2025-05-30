@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nested Block</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <!-- Block con là thành phần dùng chung -->
+      <div class="card">
+        <div class="card__title"></div>
+        <div class="card__desc"></div>
+        <div class="btn btn-success"></div>
+      </div>
+
+      <!-- Block con chứa nhiều element -->
+      <!-- YTB -->
+      <div class="header">
+        <div class="header__logo"></div>
+        <!-- New Block -->
+        <div class="top-search">
+          <div class="top-search__input"></div>
+          <div class="top-search__btn"></div>
+          <!-- new block -->
+          <div class="search-suggest">
+            <div class="search-suggest__child"></div>
+            <div class="search-suggest__child"></div>
+            <div class="search-suggest__child"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Shoppe -->
+      <div class="header">
+        <!-- New Block -->
+        <div class="navbar">
+          <div class="navbar__item"></div>
+          <div class="navbar__item"></div>
+          <div class="navbar__item"></div>
+        </div>
+        <!-- New Block -->
+        <div class="top-search">
+          <div class="top-search__input"></div>
+          <div class="top-search__btn"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
