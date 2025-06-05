@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <!-- link -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/prismjs@1.30.0/themes/prism-okaidia.min.css"
+        />
+    </head>
+    <body>
+        <p>Ví dụ: bạn có thể đánh dấu một đoạn văn bản với HTML như này:</p>
+        <pre>
+<code class="language-html">&lt;p id=&quot;paragraph&quot;&gt;What a beautiful day today!&lt;/p&gt;</code></pre>
+
+        <p>Sau đó, bạn có thể đặt kích thước và màu sắc cho đoạn văn bản với CSS</p>
+        <pre>
+<code class="language-css">#paragraph {
+    font-size: 18px;
+    color: red;
+}</code>
+</pre>
+
+        <p>
+            Cuối cùng, nếu bạn muốn nhấn vào đoạn văn bản thì nội dung của nó sẽ thay đổi, thêm code
+            JavaScript sau.
+        </p>
+        <pre>
+<code class="language-js">const p = document.getElementById(&apos;paragraph&apos;);
+p.onclick = function() {
+    this.innerText = &apos;You have CLICKED on the text!&apos;;
+};</code></pre>
+
+        <!-- script -->
+        <script src="https://cdn.jsdelivr.net/npm/prismjs@1.30.0/components/prism-core.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/prismjs@1.30.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    </body>
+</html>
